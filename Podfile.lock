@@ -1,0 +1,13 @@
+PODS:
+  - AFNetworking (0.9.1)
+  - ECSlidingViewController (2.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 0.9.1)
+  - ECSlidingViewController (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 081ec3c1f4768c87ae79d69a96fcc9479e232e81
+  ECSlidingViewController: d7bb96ee5bbe261ed80ee16a513f94b9fd3c9767
+
+COCOAPODS: 0.29.0

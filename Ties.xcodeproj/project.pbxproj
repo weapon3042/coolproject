@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36452B6F18CC5CC700A4740A /* default_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 36452B6E18CC5CC700A4740A /* default_profile.png */; };
+		36452B7018CC5CC700A4740A /* default_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 36452B6E18CC5CC700A4740A /* default_profile.png */; };
+		3685C63C18CBF07800F25BCE /* TiesUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3685C63B18CBF07800F25BCE /* TiesUser.m */; };
+		3685C63D18CBF07800F25BCE /* TiesUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3685C63B18CBF07800F25BCE /* TiesUser.m */; };
+		369854D518C9BAED00BBB304 /* TiesAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369854D218C9BAED00BBB304 /* TiesAbstractViewController.m */; };
+		369854D618C9BAED00BBB304 /* TiesAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369854D218C9BAED00BBB304 /* TiesAbstractViewController.m */; };
+		369854DA18C9BB7100BBB304 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 369854D918C9BB7100BBB304 /* logo.png */; };
+		369854DB18C9BB7100BBB304 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 369854D918C9BB7100BBB304 /* logo.png */; };
+		9A46F85118C86A23002D8FB4 /* hotkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A46F85018C86A23002D8FB4 /* hotkey.png */; };
+		9A46F85218C86A23002D8FB4 /* hotkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A46F85018C86A23002D8FB4 /* hotkey.png */; };
+		9A88214918B33D4D0074605B /* TiesMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88214818B33D4D0074605B /* TiesMenuViewController.m */; };
+		9A88214F18B3431C0074605B /* TiesTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88214C18B3431C0074605B /* TiesTransitions.m */; };
+		9A88215018B3431C0074605B /* TiesZoomAnimationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A88214E18B3431C0074605B /* TiesZoomAnimationControllerViewController.m */; };
+		9ABBD20618B5CF8A003446DE /* TiesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABBD20518B5CF8A003446DE /* TiesLoginViewController.m */; };
+		9ABBD20718B5CF8A003446DE /* TiesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABBD20518B5CF8A003446DE /* TiesLoginViewController.m */; };
+		9ABBD20918B5D031003446DE /* TiesLoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABBD20818B5D031003446DE /* TiesLoginStoryboard.storyboard */; };
+		9ABBD20A18B5D031003446DE /* TiesLoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABBD20818B5D031003446DE /* TiesLoginStoryboard.storyboard */; };
+		9AC9F4F018B30DE300CFDC9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F4EF18B30DE300CFDC9A /* Foundation.framework */; };
+		9AC9F4F218B30DE300CFDC9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F4F118B30DE300CFDC9A /* CoreGraphics.framework */; };
+		9AC9F4F418B30DE300CFDC9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F4F318B30DE300CFDC9A /* UIKit.framework */; };
+		9AC9F4FA18B30DE300CFDC9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9F4F818B30DE300CFDC9A /* InfoPlist.strings */; };
+		9AC9F4FC18B30DE300CFDC9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9F4FB18B30DE300CFDC9A /* main.m */; };
+		9AC9F50018B30DE300CFDC9A /* TiesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9F4FF18B30DE300CFDC9A /* TiesAppDelegate.m */; };
+		9AC9F50318B30DE300CFDC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9F50118B30DE300CFDC9A /* Main.storyboard */; };
+		9AC9F50818B30DE300CFDC9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9F50718B30DE300CFDC9A /* Images.xcassets */; };
+		9AC9F50F18B30DE300CFDC9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F50E18B30DE300CFDC9A /* XCTest.framework */; };
+		9AC9F51018B30DE300CFDC9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F4EF18B30DE300CFDC9A /* Foundation.framework */; };
+		9AC9F51118B30DE300CFDC9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F4F318B30DE300CFDC9A /* UIKit.framework */; };
+		9AC9F51918B30DE300CFDC9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9F51718B30DE300CFDC9A /* InfoPlist.strings */; };
+		9AC9F51B18B30DE300CFDC9A /* TiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9F51A18B30DE300CFDC9A /* TiesTests.m */; };
+		9AC9F52618B33B3B00CFDC9A /* TiesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9F52518B33B3B00CFDC9A /* TiesMainViewController.m */; };
+		9ACD78B318CD928F009C0C80 /* TiesPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD78B218CD928F009C0C80 /* TiesPostTableViewCell.m */; };
+		9ACD78B418CD928F009C0C80 /* TiesPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD78B218CD928F009C0C80 /* TiesPostTableViewCell.m */; };
+		9ACD78BB18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD78BA18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m */; };
+		9ACD78BC18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD78BA18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m */; };
+		B60E210F18B94472000D80AE /* TiesHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60E210E18B94472000D80AE /* TiesHeaderViewController.m */; };
+		B60E211918B94CB7000D80AE /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211118B94CB7000D80AE /* delete.png */; };
+		B60E211B18B94CB7000D80AE /* onme.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211318B94CB7000D80AE /* onme.png */; };
+		B60E211C18B94CB7000D80AE /* onyou.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211418B94CB7000D80AE /* onyou.png */; };
+		B60E211D18B94CB7000D80AE /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211518B94CB7000D80AE /* options.png */; };
+		B60E211E18B94CB7000D80AE /* post_title.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211618B94CB7000D80AE /* post_title.png */; };
+		B60E211F18B94CB7000D80AE /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211718B94CB7000D80AE /* search.png */; };
+		B60E212018B94CB7000D80AE /* split.png in Resources */ = {isa = PBXBuildFile; fileRef = B60E211818B94CB7000D80AE /* split.png */; };
+		B62E518E18B9A3940096070B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62E518D18B9A3940096070B /* FacebookSDK.framework */; };
+		B644832E18B87EC0009238CF /* TiesNewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B644832D18B87EC0009238CF /* TiesNewPostViewController.m */; };
+		B644833118B87F3A009238CF /* TiesPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B644833018B87F3A009238CF /* TiesPostViewController.m */; };
+		B6D7E8B118B9A4C600B445B2 /* TiesPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D7E8B018B9A4C600B445B2 /* TiesPostDetailViewController.m */; };
+		F0ACC7E27C52481FA1664579 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EDEAD5C7AD4479A444329C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC9F51218B30DE300CFDC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC9F4E418B30DE300CFDC9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC9F4EB18B30DE300CFDC9A;
+			remoteInfo = Ties;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36452B6E18CC5CC700A4740A /* default_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_profile.png; sourceTree = "<group>"; };
+		3685C63A18CBF07800F25BCE /* TiesUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesUser.h; sourceTree = "<group>"; };
+		3685C63B18CBF07800F25BCE /* TiesUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesUser.m; sourceTree = "<group>"; };
+		369854D218C9BAED00BBB304 /* TiesAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesAbstractViewController.m; sourceTree = "<group>"; };
+		369854D718C9BB1100BBB304 /* TiesAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesAbstractViewController.h; sourceTree = "<group>"; };
+		369854D918C9BB7100BBB304 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		90EDEAD5C7AD4479A444329C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A46F85018C86A23002D8FB4 /* hotkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotkey.png; sourceTree = "<group>"; };
+		9A88214718B33D4D0074605B /* TiesMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesMenuViewController.h; sourceTree = "<group>"; };
+		9A88214818B33D4D0074605B /* TiesMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesMenuViewController.m; sourceTree = "<group>"; };
+		9A88214B18B3431C0074605B /* TiesTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesTransitions.h; sourceTree = "<group>"; };
+		9A88214C18B3431C0074605B /* TiesTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesTransitions.m; sourceTree = "<group>"; };
+		9A88214D18B3431C0074605B /* TiesZoomAnimationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesZoomAnimationControllerViewController.h; sourceTree = "<group>"; };
+		9A88214E18B3431C0074605B /* TiesZoomAnimationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesZoomAnimationControllerViewController.m; sourceTree = "<group>"; };
+		9ABBD20418B5CF8A003446DE /* TiesLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesLoginViewController.h; sourceTree = "<group>"; };
+		9ABBD20518B5CF8A003446DE /* TiesLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesLoginViewController.m; sourceTree = "<group>"; };
+		9ABBD20818B5D031003446DE /* TiesLoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TiesLoginStoryboard.storyboard; sourceTree = "<group>"; };
+		9AC9F4EC18B30DE300CFDC9A /* Ties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ties.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC9F4EF18B30DE300CFDC9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AC9F4F118B30DE300CFDC9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AC9F4F318B30DE300CFDC9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AC9F4F718B30DE300CFDC9A /* Ties-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ties-Info.plist"; sourceTree = "<group>"; };
+		9AC9F4F918B30DE300CFDC9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AC9F4FB18B30DE300CFDC9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AC9F4FD18B30DE300CFDC9A /* Ties-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ties-Prefix.pch"; sourceTree = "<group>"; };
+		9AC9F4FE18B30DE300CFDC9A /* TiesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiesAppDelegate.h; sourceTree = "<group>"; };
+		9AC9F4FF18B30DE300CFDC9A /* TiesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiesAppDelegate.m; sourceTree = "<group>"; };
+		9AC9F50218B30DE300CFDC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC9F50718B30DE300CFDC9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AC9F50D18B30DE300CFDC9A /* TiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC9F50E18B30DE300CFDC9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AC9F51618B30DE300CFDC9A /* TiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiesTests-Info.plist"; sourceTree = "<group>"; };
+		9AC9F51818B30DE300CFDC9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AC9F51A18B30DE300CFDC9A /* TiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiesTests.m; sourceTree = "<group>"; };
+		9AC9F52418B33B3B00CFDC9A /* TiesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesMainViewController.h; sourceTree = "<group>"; };
+		9AC9F52518B33B3B00CFDC9A /* TiesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesMainViewController.m; sourceTree = "<group>"; };
+		9ACD78B118CD928F009C0C80 /* TiesPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesPostTableViewCell.h; sourceTree = "<group>"; };
+		9ACD78B218CD928F009C0C80 /* TiesPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesPostTableViewCell.m; sourceTree = "<group>"; };
+		9ACD78B918CD9961009C0C80 /* UITableViewCell+TiesPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TiesPostCell.h"; sourceTree = "<group>"; };
+		9ACD78BA18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TiesPostCell.m"; sourceTree = "<group>"; };
+		B60E210D18B94472000D80AE /* TiesHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesHeaderViewController.h; sourceTree = "<group>"; };
+		B60E210E18B94472000D80AE /* TiesHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesHeaderViewController.m; sourceTree = "<group>"; };
+		B60E211118B94CB7000D80AE /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		B60E211318B94CB7000D80AE /* onme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onme.png; sourceTree = "<group>"; };
+		B60E211418B94CB7000D80AE /* onyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onyou.png; sourceTree = "<group>"; };
+		B60E211518B94CB7000D80AE /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options.png; sourceTree = "<group>"; };
+		B60E211618B94CB7000D80AE /* post_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = post_title.png; sourceTree = "<group>"; };
+		B60E211718B94CB7000D80AE /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		B60E211818B94CB7000D80AE /* split.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = split.png; sourceTree = "<group>"; };
+		B62E518D18B9A3940096070B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		B644832C18B87EC0009238CF /* TiesNewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesNewPostViewController.h; sourceTree = "<group>"; };
+		B644832D18B87EC0009238CF /* TiesNewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesNewPostViewController.m; sourceTree = "<group>"; };
+		B644832F18B87F3A009238CF /* TiesPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesPostViewController.h; sourceTree = "<group>"; };
+		B644833018B87F3A009238CF /* TiesPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesPostViewController.m; sourceTree = "<group>"; };
+		B6D7E8AF18B9A4C600B445B2 /* TiesPostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiesPostDetailViewController.h; sourceTree = "<group>"; };
+		B6D7E8B018B9A4C600B445B2 /* TiesPostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiesPostDetailViewController.m; sourceTree = "<group>"; };
+		C12B31A9205A4E2C858678FF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC9F4E918B30DE300CFDC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC9F4F218B30DE300CFDC9A /* CoreGraphics.framework in Frameworks */,
+				B62E518E18B9A3940096070B /* FacebookSDK.framework in Frameworks */,
+				9AC9F4F418B30DE300CFDC9A /* UIKit.framework in Frameworks */,
+				9AC9F4F018B30DE300CFDC9A /* Foundation.framework in Frameworks */,
+				F0ACC7E27C52481FA1664579 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC9F50A18B30DE300CFDC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC9F50F18B30DE300CFDC9A /* XCTest.framework in Frameworks */,
+				9AC9F51118B30DE300CFDC9A /* UIKit.framework in Frameworks */,
+				9AC9F51018B30DE300CFDC9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A88214A18B3430F0074605B /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				9A88214B18B3431C0074605B /* TiesTransitions.h */,
+				9A88214C18B3431C0074605B /* TiesTransitions.m */,
+				9A88214D18B3431C0074605B /* TiesZoomAnimationControllerViewController.h */,
+				9A88214E18B3431C0074605B /* TiesZoomAnimationControllerViewController.m */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
+		9AC9F4E318B30DE300CFDC9A = {
+			isa = PBXGroup;
+			children = (
+				9AC9F4F518B30DE300CFDC9A /* Ties */,
+				9AC9F51418B30DE300CFDC9A /* TiesTests */,
+				9AC9F4EE18B30DE300CFDC9A /* Frameworks */,
+				9AC9F4ED18B30DE300CFDC9A /* Products */,
+				C12B31A9205A4E2C858678FF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC9F4ED18B30DE300CFDC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9F4EC18B30DE300CFDC9A /* Ties.app */,
+				9AC9F50D18B30DE300CFDC9A /* TiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC9F4EE18B30DE300CFDC9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62E518D18B9A3940096070B /* FacebookSDK.framework */,
+				9AC9F4EF18B30DE300CFDC9A /* Foundation.framework */,
+				9AC9F4F118B30DE300CFDC9A /* CoreGraphics.framework */,
+				9AC9F4F318B30DE300CFDC9A /* UIKit.framework */,
+				9AC9F50E18B30DE300CFDC9A /* XCTest.framework */,
+				90EDEAD5C7AD4479A444329C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AC9F4F518B30DE300CFDC9A /* Ties */ = {
+			isa = PBXGroup;
+			children = (
+				9A88214A18B3430F0074605B /* Transition */,
+				9AC9F4FE18B30DE300CFDC9A /* TiesAppDelegate.h */,
+				9AC9F4FF18B30DE300CFDC9A /* TiesAppDelegate.m */,
+				3685C63A18CBF07800F25BCE /* TiesUser.h */,
+				3685C63B18CBF07800F25BCE /* TiesUser.m */,
+				9AC9F50118B30DE300CFDC9A /* Main.storyboard */,
+				9AC9F52418B33B3B00CFDC9A /* TiesMainViewController.h */,
+				9AC9F52518B33B3B00CFDC9A /* TiesMainViewController.m */,
+				9A88214718B33D4D0074605B /* TiesMenuViewController.h */,
+				9A88214818B33D4D0074605B /* TiesMenuViewController.m */,
+				9ABBD20418B5CF8A003446DE /* TiesLoginViewController.h */,
+				9ABBD20518B5CF8A003446DE /* TiesLoginViewController.m */,
+				9ABBD20818B5D031003446DE /* TiesLoginStoryboard.storyboard */,
+				B644832C18B87EC0009238CF /* TiesNewPostViewController.h */,
+				B644832D18B87EC0009238CF /* TiesNewPostViewController.m */,
+				B644832F18B87F3A009238CF /* TiesPostViewController.h */,
+				B644833018B87F3A009238CF /* TiesPostViewController.m */,
+				B60E210D18B94472000D80AE /* TiesHeaderViewController.h */,
+				B60E210E18B94472000D80AE /* TiesHeaderViewController.m */,
+				B6D7E8AF18B9A4C600B445B2 /* TiesPostDetailViewController.h */,
+				B6D7E8B018B9A4C600B445B2 /* TiesPostDetailViewController.m */,
+				369854D718C9BB1100BBB304 /* TiesAbstractViewController.h */,
+				369854D218C9BAED00BBB304 /* TiesAbstractViewController.m */,
+				9ACD78B118CD928F009C0C80 /* TiesPostTableViewCell.h */,
+				9ACD78B218CD928F009C0C80 /* TiesPostTableViewCell.m */,
+				9ACD78B918CD9961009C0C80 /* UITableViewCell+TiesPostCell.h */,
+				9ACD78BA18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m */,
+				9AC9F50718B30DE300CFDC9A /* Images.xcassets */,
+				9AC9F4F618B30DE300CFDC9A /* Supporting Files */,
+			);
+			path = Ties;
+			sourceTree = "<group>";
+		};
+		9AC9F4F618B30DE300CFDC9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60E211018B94CAB000D80AE /* images */,
+				9AC9F4F718B30DE300CFDC9A /* Ties-Info.plist */,
+				9AC9F4F818B30DE300CFDC9A /* InfoPlist.strings */,
+				9AC9F4FB18B30DE300CFDC9A /* main.m */,
+				9AC9F4FD18B30DE300CFDC9A /* Ties-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AC9F51418B30DE300CFDC9A /* TiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9F51A18B30DE300CFDC9A /* TiesTests.m */,
+				9AC9F51518B30DE300CFDC9A /* Supporting Files */,
+			);
+			path = TiesTests;
+			sourceTree = "<group>";
+		};
+		9AC9F51518B30DE300CFDC9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9F51618B30DE300CFDC9A /* TiesTests-Info.plist */,
+				9AC9F51718B30DE300CFDC9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60E211018B94CAB000D80AE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				369854D918C9BB7100BBB304 /* logo.png */,
+				36452B6E18CC5CC700A4740A /* default_profile.png */,
+				9A46F85018C86A23002D8FB4 /* hotkey.png */,
+				B60E211118B94CB7000D80AE /* delete.png */,
+				B60E211318B94CB7000D80AE /* onme.png */,
+				B60E211418B94CB7000D80AE /* onyou.png */,
+				B60E211518B94CB7000D80AE /* options.png */,
+				B60E211618B94CB7000D80AE /* post_title.png */,
+				B60E211718B94CB7000D80AE /* search.png */,
+				B60E211818B94CB7000D80AE /* split.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC9F4EB18B30DE300CFDC9A /* Ties */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC9F51E18B30DE300CFDC9A /* Build configuration list for PBXNativeTarget "Ties" */;
+			buildPhases = (
+				F650D217BEB04ECFBD323EC7 /* Check Pods Manifest.lock */,
+				9AC9F4E818B30DE300CFDC9A /* Sources */,
+				9AC9F4E918B30DE300CFDC9A /* Frameworks */,
+				9AC9F4EA18B30DE300CFDC9A /* Resources */,
+				145B80EA6BA947C787CCB9F7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ties;
+			productName = Ties;
+			productReference = 9AC9F4EC18B30DE300CFDC9A /* Ties.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AC9F50C18B30DE300CFDC9A /* TiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC9F52118B30DE300CFDC9A /* Build configuration list for PBXNativeTarget "TiesTests" */;
+			buildPhases = (
+				9AC9F50918B30DE300CFDC9A /* Sources */,
+				9AC9F50A18B30DE300CFDC9A /* Frameworks */,
+				9AC9F50B18B30DE300CFDC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC9F51318B30DE300CFDC9A /* PBXTargetDependency */,
+			);
+			name = TiesTests;
+			productName = TiesTests;
+			productReference = 9AC9F50D18B30DE300CFDC9A /* TiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC9F4E418B30DE300CFDC9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ties;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "IDesign Network Inc";
+				TargetAttributes = {
+					9AC9F50C18B30DE300CFDC9A = {
+						TestTargetID = 9AC9F4EB18B30DE300CFDC9A;
+					};
+				};
+			};
+			buildConfigurationList = 9AC9F4E718B30DE300CFDC9A /* Build configuration list for PBXProject "Ties" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC9F4E318B30DE300CFDC9A;
+			productRefGroup = 9AC9F4ED18B30DE300CFDC9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC9F4EB18B30DE300CFDC9A /* Ties */,
+				9AC9F50C18B30DE300CFDC9A /* TiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC9F4EA18B30DE300CFDC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369854DA18C9BB7100BBB304 /* logo.png in Resources */,
+				B60E211B18B94CB7000D80AE /* onme.png in Resources */,
+				9ABBD20918B5D031003446DE /* TiesLoginStoryboard.storyboard in Resources */,
+				B60E211E18B94CB7000D80AE /* post_title.png in Resources */,
+				B60E211D18B94CB7000D80AE /* options.png in Resources */,
+				B60E212018B94CB7000D80AE /* split.png in Resources */,
+				9AC9F50818B30DE300CFDC9A /* Images.xcassets in Resources */,
+				9AC9F4FA18B30DE300CFDC9A /* InfoPlist.strings in Resources */,
+				B60E211918B94CB7000D80AE /* delete.png in Resources */,
+				B60E211F18B94CB7000D80AE /* search.png in Resources */,
+				9A46F85118C86A23002D8FB4 /* hotkey.png in Resources */,
+				36452B6F18CC5CC700A4740A /* default_profile.png in Resources */,
+				9AC9F50318B30DE300CFDC9A /* Main.storyboard in Resources */,
+				B60E211C18B94CB7000D80AE /* onyou.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC9F50B18B30DE300CFDC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36452B7018CC5CC700A4740A /* default_profile.png in Resources */,
+				369854DB18C9BB7100BBB304 /* logo.png in Resources */,
+				9ABBD20A18B5D031003446DE /* TiesLoginStoryboard.storyboard in Resources */,
+				9AC9F51918B30DE300CFDC9A /* InfoPlist.strings in Resources */,
+				9A46F85218C86A23002D8FB4 /* hotkey.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145B80EA6BA947C787CCB9F7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F650D217BEB04ECFBD323EC7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC9F4E818B30DE300CFDC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B644832E18B87EC0009238CF /* TiesNewPostViewController.m in Sources */,
+				9A88214F18B3431C0074605B /* TiesTransitions.m in Sources */,
+				3685C63C18CBF07800F25BCE /* TiesUser.m in Sources */,
+				369854D518C9BAED00BBB304 /* TiesAbstractViewController.m in Sources */,
+				9A88215018B3431C0074605B /* TiesZoomAnimationControllerViewController.m in Sources */,
+				9AC9F52618B33B3B00CFDC9A /* TiesMainViewController.m in Sources */,
+				9ABBD20618B5CF8A003446DE /* TiesLoginViewController.m in Sources */,
+				B6D7E8B118B9A4C600B445B2 /* TiesPostDetailViewController.m in Sources */,
+				9A88214918B33D4D0074605B /* TiesMenuViewController.m in Sources */,
+				9ACD78BB18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m in Sources */,
+				B60E210F18B94472000D80AE /* TiesHeaderViewController.m in Sources */,
+				B644833118B87F3A009238CF /* TiesPostViewController.m in Sources */,
+				9AC9F4FC18B30DE300CFDC9A /* main.m in Sources */,
+				9ACD78B318CD928F009C0C80 /* TiesPostTableViewCell.m in Sources */,
+				9AC9F50018B30DE300CFDC9A /* TiesAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC9F50918B30DE300CFDC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACD78BC18CD9961009C0C80 /* UITableViewCell+TiesPostCell.m in Sources */,
+				9ACD78B418CD928F009C0C80 /* TiesPostTableViewCell.m in Sources */,
+				9AC9F51B18B30DE300CFDC9A /* TiesTests.m in Sources */,
+				3685C63D18CBF07800F25BCE /* TiesUser.m in Sources */,
+				9ABBD20718B5CF8A003446DE /* TiesLoginViewController.m in Sources */,
+				369854D618C9BAED00BBB304 /* TiesAbstractViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC9F51318B30DE300CFDC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC9F4EB18B30DE300CFDC9A /* Ties */;
+			targetProxy = 9AC9F51218B30DE300CFDC9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AC9F4F818B30DE300CFDC9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC9F4F918B30DE300CFDC9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AC9F50118B30DE300CFDC9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC9F50218B30DE300CFDC9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC9F51718B30DE300CFDC9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC9F51818B30DE300CFDC9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC9F51C18B30DE300CFDC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AC9F51D18B30DE300CFDC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC9F51F18B30DE300CFDC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12B31A9205A4E2C858678FF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pengwan/Documents/Ties,
+					/Users/Kelvin/Desktop/Ties/FacebookSDK,
+					/Users/xkb182/Desktop/Ties,
+					/Users/Kelvin/Desktop/Ties,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ties/Ties-Prefix.pch";
+				INFOPLIST_FILE = "Ties/Ties-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AC9F52018B30DE300CFDC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12B31A9205A4E2C858678FF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pengwan/Documents/Ties,
+					/Users/Kelvin/Desktop/Ties/FacebookSDK,
+					/Users/xkb182/Desktop/Ties,
+					/Users/Kelvin/Desktop/Ties,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ties/Ties-Prefix.pch";
+				INFOPLIST_FILE = "Ties/Ties-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AC9F52218B30DE300CFDC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ties.app/Ties";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/pengwan/Documents/Ties,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ties/Ties-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TiesTests/TiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AC9F52318B30DE300CFDC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ties.app/Ties";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/pengwan/Documents/Ties,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ties/Ties-Prefix.pch";
+				INFOPLIST_FILE = "TiesTests/TiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC9F4E718B30DE300CFDC9A /* Build configuration list for PBXProject "Ties" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9F51C18B30DE300CFDC9A /* Debug */,
+				9AC9F51D18B30DE300CFDC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC9F51E18B30DE300CFDC9A /* Build configuration list for PBXNativeTarget "Ties" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9F51F18B30DE300CFDC9A /* Debug */,
+				9AC9F52018B30DE300CFDC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC9F52118B30DE300CFDC9A /* Build configuration list for PBXNativeTarget "TiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9F52218B30DE300CFDC9A /* Debug */,
+				9AC9F52318B30DE300CFDC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC9F4E418B30DE300CFDC9A /* Project object */;
+}
